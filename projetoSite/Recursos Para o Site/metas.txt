@@ -1,0 +1,11 @@
+
+<meta charset="utf-8">
+
+<meta name="author" content="Wagner Cardoso">
+
+
+<meta name="description" content="Curso de desenvolvimento de games">
+
+
+
+<meta name="keywords" content="jogos, games, desenvolvimento, construct, construct 2">

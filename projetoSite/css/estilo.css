@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 1%;
+    background: #00008B;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    background: #00008B;
+    padding: 3px;
+}
+#atendimento {
+    text-align: right;
+}
+header {
+    text-align: center;
+}
+#img-topo {
+    background-color: #00008B;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+    color: #00008B;
+    font-size: 22px;
+}
+h2 {
+    font-size: 20px;
+}
+#grade {
+    display: grid;
+    grid-template-areas: "imagem texto";
+}
+.imagem {
+    text-align: center;
+}
+.texto {
+    text-align: center;
+}
+#wagner {
+    border-radius: 50%;
+}
+#professor {
+    background-color: #00008B;
+    text-align: center;
+    padding: 1%;
+}
+h4 {
+    color: #fff;
+    font-size: 22px;
+}
+#logo-rodape {
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+}
+footer {
+    background-color: #00008B;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+hr {
+    width: 70%;
+    border-color: #00008B;
+}
+hr.bco {
+    width: 70%;
+    border-color: #fff;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #ff0000;
+    transition: 2s;
+}
+.publicidade {
+    text-align: center;
+}
+#container {
+    background-color: #fff;
+    padding: 1px;
+    box-shadow: 2px 2px 2px #fff;
+}
+.conteudo {
+    padding: 3%;
+}
