@@ -46,15 +46,22 @@ class Aplicacao:
 
     def click(self, event):
         entrada = event.widget.cget("text")
-        if entrada == '=':  # Consertar isso
-            valor = eval(self.screen.get())
-            self.valor_geral.set(valor)
-            self.screen.update()  # Consertar isso
-        elif entrada == 'C':
-            self.valor_geral.set('')
+        try:
+            if entrada == '=':
+                valor = eval(self.screen.get())
+                self.valor_geral.set(valor)
+                self.screen.update()
+            elif entrada == 'C':
+                self.valor_geral.set('')
+                self.screen.update()
+            else:
+                self.valor_geral.set(self.valor_geral.get() + entrada)
+                self.screen.update()
+        except ZeroDivisionError:
+            self.valor_geral.set("Erro: n/0")
             self.screen.update()
-        else:
-            self.valor_geral.set(self.valor_geral.get() + entrada)
+        except SyntaxError:
+            self.valor_geral.set("Erro: Sintaxe")
             self.screen.update()
 
 
